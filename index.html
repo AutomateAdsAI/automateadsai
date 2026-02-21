@@ -327,9 +327,19 @@
       .hero { grid-template-columns: 1fr; }
       .grid3 { grid-template-columns: 1fr; }
       .twoCol { grid-template-columns: 1fr; }
+      .oneCol {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
       .formRow { grid-template-columns: 1fr; }
       header { position: static; }
     }
+    .hero{
+  display: grid;
+  grid-template-columns: 1fr !important;
+  gap: 14px;
+}
   </style>
 </head>
 <body>
@@ -671,5 +681,6 @@
   </script>
 </body>
 </html>
+
 
 
